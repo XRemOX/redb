@@ -1,0 +1,78 @@
+- prettyPhoto XSS fix
+- Bugfix: Menu dropdown on OS X
+- Bugfix: Owl carousel on IE9
+- Bugfix: Properties's image height on Safari
+- Bugfix: Properties's detail slider
+
+
+/************************************************************************************************
+ *
+ * Automatic update
+ *
+ ************************************************************************************************/
+
+Simply copy the files and folders that is inside the folder "update 1.3" into the folder of your project. This will replace your existent files.
+
+
+
+
+
+
+
+
+/************************************************************************************************
+ *
+ * Manual update
+ *
+ ************************************************************************************************/
+-----------------------------------------------------------------------------------------
+- prettyPhoto XSS fix
+-----------------------------------------------------------------------------------------
+Update the file js\jquery.prettyPhoto.js
+
+
+
+
+-----------------------------------------------------------------------------------------
+- Bugfix: Menu dropdown on OS X
+-----------------------------------------------------------------------------------------
+Remove the property "display:block !important;" from the line 2194 of style.css file or line 2384 of style.less.
+
+
+
+
+
+-----------------------------------------------------------------------------------------
+- Bugfix: Owl carousel on IE9
+-----------------------------------------------------------------------------------------
+Update the file js\owl.carousel.min.js
+
+
+
+
+
+-----------------------------------------------------------------------------------------
+- Bugfix: Properties's image height on Safari
+-----------------------------------------------------------------------------------------
+Add the following lines to the end of style.css/style.less file:
+
+.list-style .item .image img {
+	height: auto;
+}
+
+
+
+
+
+-----------------------------------------------------------------------------------------
+- Bugfix: Properties's detail slider
+-----------------------------------------------------------------------------------------
+Open the file js\scripts.js and copy all the content of the function createOwlSliders.
+
+
+
+
+
+
+
+If you have any questions, feel free to contact us trough the contact form on our ThemeForest profile at http://themeforest.net/user/WiselyThemes.

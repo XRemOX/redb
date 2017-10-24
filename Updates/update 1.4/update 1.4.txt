@@ -1,0 +1,60 @@
+- Bugfix: Tabs navigation not showing on mobile view
+- Bugfix: 3rd level navigation on mobile devices
+- Bugfix: Properties grid image height on mobile view
+
+
+/************************************************************************************************
+ *
+ * Automatic update
+ *
+ ************************************************************************************************/
+
+Simply copy the files and folders that is inside the folder "update 1.4" into the folder of your project. This will replace your existent files.
+
+
+
+
+
+
+
+
+/************************************************************************************************
+ *
+ * Manual update
+ *
+ ************************************************************************************************/
+-----------------------------------------------------------------------------------------
+- Bugfix: Tabs navigation not showing on mobile view
+-----------------------------------------------------------------------------------------
+Add the following CSS to the bottom of your style.css or style.less:
+
+.nav-tabs{
+  display:block
+}
+
+
+
+-----------------------------------------------------------------------------------------
+- Bugfix: 3rd level navigation on mobile devices
+-----------------------------------------------------------------------------------------
+Use the file common.js to replace the one that you are using on your project
+
+
+
+-----------------------------------------------------------------------------------------
+- Bugfix: Tabs navigation not showing on mobile view
+-----------------------------------------------------------------------------------------
+Add the following CSS to the bottom of your style.css or style.less:
+
+.grid-style1 .item .image img,.grid-style2 .item .image img,.list-style .item .image img {
+    height:auto;
+}
+
+
+
+
+
+
+
+
+If you have any questions, feel free to contact us trough the contact form on our ThemeForest profile at http://themeforest.net/user/WiselyThemes.
